@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="#Attempt no. 1"
+            android:id="@+id/attempt_no"
+            android:textColor="#000000"
+            android:textStyle="bold|normal"
+            android:gravity="center"
+            android:layout_marginTop="60dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:inputType="numberPassword"
+            android:ems="10"
+            android:id="@+id/password_1"
+            android:gravity="center"
+
+            android:enabled="false"
+            android:layout_weight="1"
+            android:maxLength="1"
+            android:textColor="#000000"
+            android:editable="true"
+            android:textStyle="bold|normal"
+            android:typeface="normal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:inputType="numberPassword"
+            android:ems="10"
+            android:id="@+id/password_2"
+            android:gravity="center"
+            android:editable="true"
+            android:enabled="false"
+            android:layout_weight="1"
+            android:maxLength="1"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:inputType="numberPassword"
+            android:ems="10"
+            android:id="@+id/password_3"
+            android:gravity="center"
+            android:editable="true"
+            android:enabled="false"
+            android:layout_weight="1"
+            android:maxLength="1"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:inputType="numberPassword"
+            android:ems="10"
+            android:id="@+id/password_4"
+            android:gravity="center"
+            android:editable="true"
+            android:enabled="false"
+            android:layout_weight="1"
+            android:maxLength="1"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:inputType="numberPassword"
+            android:ems="10"
+            android:id="@+id/password_5"
+            android:gravity="center"
+            android:editable="true"
+            android:enabled="false"
+            android:layout_weight="1"
+            android:maxLength="1"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:inputType="numberPassword"
+            android:ems="10"
+            android:id="@+id/password_6"
+            android:gravity="center"
+            android:editable="true"
+            android:enabled="false"
+            android:layout_weight="1"
+            android:maxLength="1"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="1"
+            android:id="@+id/t1"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="2"
+            android:id="@+id/t2"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="3"
+            android:id="@+id/t3"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="4"
+            android:id="@+id/t4"
+            android:gravity="center"
+
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="5"
+            android:id="@+id/t5"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="6"
+            android:id="@+id/t6"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="7"
+            android:id="@+id/t7"
+            android:gravity="center"
+
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="8"
+            android:id="@+id/t8"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="9"
+            android:id="@+id/t9"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="X"
+            android:id="@+id/tclear"
+            android:gravity="center"
+            android:enabled="false"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="0"
+            android:id="@+id/t0"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Ok"
+            android:id="@+id/tdone"
+            android:gravity="center"
+            android:layout_weight="0.87"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

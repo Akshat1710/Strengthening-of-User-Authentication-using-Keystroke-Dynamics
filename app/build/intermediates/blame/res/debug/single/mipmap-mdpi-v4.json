@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\parth\\AndroidStudioProjects\\KeystrokeDynamics\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\parth\\AndroidStudioProjects\\KeystrokeDynamics\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Android Studio Projects\\KeystrokeDynamics\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\ic_launcher.png",
+        "source": "D:\\Android Studio Projects\\KeystrokeDynamics\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Android Studio Projects\\KeystrokeDynamics - 16\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\ic_launcher.png",
+        "source": "D:\\Android Studio Projects\\KeystrokeDynamics - 16\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    }
+]

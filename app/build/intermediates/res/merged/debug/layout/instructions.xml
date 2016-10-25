@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="This is an App Lock Application. It identifies a user based on his unique keystroke (typing) patterns. The Application runs in two phases i.e. Training Phase and Testing Phase. In the Training Phase, you will be asked to set a password and repeatedly enter the password using your normal typing style. Your Keystroke Data will be fetched which help the system to identify you. This is repeated 30 times to calculate a rough average of your typing pattern. The Testing phase will thus prove your identity"
+        android:id="@+id/instructions"
+        android:layout_gravity="top|left|bottom|center|right"
+        android:gravity="center|center_vertical|center_horizontal"
+        android:textColor="#000000"
+        android:textStyle="bold|normal"
+        android:typeface="sans"
+        android:layout_margin="15dp" />
+</LinearLayout>
